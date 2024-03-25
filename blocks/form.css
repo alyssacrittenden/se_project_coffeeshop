@@ -15,22 +15,26 @@
   margin: 0 0 8px;
 }
 
-input::placeholder {
-  font-size: 20px;
-  line-height: 30px;
-  color: #838383;
-}
-
 .form__input {
+  border: #838383 solid;
   border-radius: 4px;
   margin-bottom: 32px;
   height: 60px;
   width: 100%;
   box-sizing: border-box;
   padding: 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::placeholder {
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 
 .form__button {
+  border-style: none;
   border-radius: 4px;
   background-color: #2f80ed;
   color: #fff;
@@ -38,6 +42,7 @@ input::placeholder {
   height: 60px;
   margin-bottom: 32px;
   width: 100%;
+  cursor: pointer;
 }
 
 .form__button:hover {
@@ -50,15 +55,12 @@ input::placeholder {
   width: 20px;
   height: 20px;
   margin-right: 12px;
+  background-color: #2f80ed;
+  background-image: url(../images/check.svg);
 }
 
 .form__checkbox-wrap {
   display: flex;
   justify-content: center;
   margin-bottom: 0;
-}
-
-input[type="checkbox"] {
-  background-color: #2f80ed;
-  background-image: url(/images/check.svg);
 }

@@ -1,9 +1,5 @@
 .menu {
-  background-color: #fff;
-  background-image: url(/images/background_menu.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url("../images/background_menu.svg") center/cover no-repeat #fff;
   padding: 100px 0 100px;
 }
 
@@ -20,7 +16,7 @@
   text-align: center;
   max-width: 780px;
   margin: 0 auto 100px;
-  font-family: "Noto Serif", "Times New Roman";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -32,33 +28,4 @@
   gap: 100px;
   padding: 0;
   margin: 0;
-}
-
-.card {
-  width: 540px;
-}
-
-.card__title {
-  margin: 0 0 32px;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  list-style-type: none;
-}
-
-.card__list-item {
-  display: flex;
-}
-
-.card__list-divider {
-  border-bottom: 1px solid black;
-  flex-grow: 1;
 }
