@@ -16,7 +16,7 @@
 }
 
 .form__input {
-  border: #838383 solid;
+  border: #838383 solid 1px;
   border-radius: 4px;
   margin-bottom: 32px;
   height: 60px;
